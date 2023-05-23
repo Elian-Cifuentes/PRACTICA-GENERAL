@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", minimun-scale="1.0", maximun-scale="1.0">
+    <meta name="author" content="Cifuentes Elian">
+    <meta name="description" content="Tablas y Multimedia ">
+    <meta name="keywords" content="programacion, html, php, etiquetas, tablas">
+    <title>Universidades</title>
+</head>
+<body>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th colspan="4"><img src="IMG\UNIVERSIDAD1.png" alt="Universidad" width="100%" height="300px"></th>
+            </tr>
+            <tr>
+                <th colspan="4">
+                    <p style="text-align: center; font-size: 40px; font-family: 'Times New Roman';color: #228ed2;">
+                        Universidades Del Ecuador
+                    </p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                   <a href="INDEX.html"><p style="color: #1333d3;">Inicio</p></a>
+                </th>
+                <th>
+                    <a href="UNIVERSIDADES\CARRERAS.html"><p style="color: #13d3a9;">Carreras</p></a>
+                </th>
+                <th>
+                    <a href="UNIVERSIDADES\DOCENTES.html"><p style="color: #a6d313;">Docentes</p></a>
+                </th>
+                <th>
+                    <a href="CONTACTO.html"><p style="color: #d38613;">Contacto</p></a>
+                </th>
+            </tr>
+            
+
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4" bgcolor="red" height="8px"></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <p style="text-align: center; color: #228ed2; font-size: 24px;">
+                        Encuesta
+                    </p>
+                </td>
+                <tr>
+                    <td colspan="4">
+                        <form>
+                            <p>
+                            <label for="Universidades">¿Que Universidad Prefieres?:</label><br>
+                             <select id="Universidades" name="Universidades" multiple>
+                               <option>UIDE</option>
+                               <option>ESPE</option>
+                               <option>ESPOCH</option>
+                               <option>ESPOL</option>
+                               <option>PUCE</option>
+                               <option>UCUENCA</option>
+                               <option>UGUAYAQUIL</option>
+                               <option>UTELVT</option>
+                             </select>
+                            </p>
+                            <p>
+                             <label for="Carrera">Escribe la carrera que te gustaría seguir:</label><br>
+                             <input type="text" name="Carrera" id="Carrera">
+                            </p>
+                            <p>Deja tu comentario:<br>
+                                <textarea rows="5" cols="50"></textarea><br><br>
+                                <input type="submit" value="Enviar comentario">
+                            </p>
+                            <p>
+                                <label for="email">Ingresa tu correo para postular para una Universidad:</label><br>
+                                <input type="email" name="email" id="email">
+                            </p>
+                            <p>
+                                <label for="Telefono">Ingresa tu número de teléfono para postular para una Universidad:</label><br>
+                                <input type="tel" name="Telefono" id="Telefono">
+                            </p>
+                            <p>
+                                <input type="reset" value="Nuevo">
+                                <input type="submit" value="Enviar"><br><br>
+                              </p>
+                        </form>
+                    </td>
+                </tr>
+            </tr>
+                <td colspan="4" bgcolor="red" height="8px"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <p style="text-align: center; color: #228ed2; font-size: 24px;">
+                        Redes Sociales De Universidades Del Ecuador
+                    </p>
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td><a href="https://www.instagram.com/puce_ecuador/?hl=es" target="_blank"><img src="IMG\instagram.png" width="80" height="80"></a></td>
+                <td><a href="https://www.facebook.com/UniversidadTecnicaLuisVargasTorres/?locale=es_LA" target="_blank"><img src="IMG\facebook.png" width="80" height="80"></a></td>
+                <td><a href="https://twitter.com/EspochRio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="IMG\twitter.png" width="80" height="80"></a></td>
+                <td><a href="https://www.youtube.com/@espol1" target="_blank"><img src="IMG\youtube.png" width="85" height="75"></a></td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
