@@ -1,0 +1,10 @@
+.container {
+    text-align: center;
+  }
+
+  .centered-image {
+    display: inline-block;
+    /* Puedes ajustar el ancho máximo si es necesario */
+    max-width: 100%;
+  }
+  
